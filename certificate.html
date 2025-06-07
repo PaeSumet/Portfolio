@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="th">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"> <!-- เชื่อมกับ CSS -->
+  <link rel="stylesheet" href="stylecertificate.css"> <!-- เชื่อมกับ stylecertificate -->
+  <link rel="stylesheet" href="mobliecss.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Paxs</title>
+  <link rel="icon" type="image/x-icon" href="PaxS.png">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+</style>
+</head>
+</html>
+
+<body>
+  <!-- Fullscreen overlay -->
+<div id="imageModal" class="modal" onclick="hideFullscreen()">
+  <img id="modalImage">
+</div>
+    <div class="cursor"></div>
+<div class="radio-inputs">
+  <label class="radio">
+    <input type="radio" name="radio">
+    <span class="name" id="Home" onclick="fadeAndGo(this.id)">Home</span>
+  </label>
+  <label class="radio">
+    <input type="radio" name="radio">
+    <span class="name" id="Facts" onclick="fadeAndGo(this.id)">Facts</span>
+  </label>
+  <label class="radio">
+    <input type="radio" name="radio" checked="">
+    <span class="name" id="Certificate" onclick="fadeAndGo(this.id)">Certificate</span>
+  </label>
+    <label class="radio">
+    <input type="radio" name="radio">
+    <span class="name" id="Positions" onclick="fadeAndGo(this.id)">Positions</span>
+  </label>
+      <label class="radio">
+    <input type="radio" name="radio">
+    <span class="name" id="Blog" onclick="fadeAndGo(this.id)">Blog</span>
+  </label>
+</div>
+    <div class="icon-bar">
+      <a href="https://www.facebook.com/joy.vipada.5" style="background: #3B5998; color: white;"><i class="fa fa-facebook"></i></a> 
+      <a href="https://www.instagram.com/paxumet" style="background: #ff00fb; color: white;"><i class="fa fa-instagram"></i></a> 
+      <a href="#" style="background: #dd4b39; color: white;"><i class="fa fa-google"></i></a> 
+      <a href="#" style="background: #ff0505; color: white;"><i class="fa fa-youtube"></i></a> 
+    </div>
+<ol style="background-color: rgb(58, 58, 58); ">
+    <br><br><br><br>
+    <h5 class="text-ceri fadeInLeft"><strong>Cerificate</strong></h5>
+    <h4 class="fadeInLeft" style="animation-delay: 0.5s;"><strong>ผลงาน และ เกียรติบัตร</strong></h4>
+    <br>
+    <hr>
+    <br>
+    <div class="text-cerlevel ZoomIn" style="animation-delay: 0.9s;"><strong>National level</strong></div>
+    <div class="grid-container ZoomIn">
+
+      <div class="cer-container" style="background-color: #fdfdd7;">
+        <div class="cer-header" style="color: #021442; background-color: #fff7a0;">รางวัลเยาวชนดีเด่น ระดับชาติ</div>
+        <div class="cer-subheader" style="color: #162345;">รางวัลเยาวชนดีเด่น สภาสังคมสงเคราะห์แห่งประเทศในพระบรมราชูประภัมป์ <br> ณ สภาสังคมสงเคราะห์ จังหวัดกรุงเทพฯ <Br> Sep 20, 2024 </div>
+        <button class="toggle-cerbutton" style="background-color: #fefee0;" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer01.jpg" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">รางวัลเยาวชนดีเด่น จังหวัดอุบลราชธานี</div>
+        <div class="cer-subheader">รางวัลเยาวชนดีเด่นจังหวัดอุบลราชธานี <br> ณ มหาลัยอุบลราชธานี จังหวัดอุบลฯ <br> Sep 27, 2024 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer02.jpg" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">1st Runner-Up (WRG)</div>
+        <div class="cer-subheader">1st Runner-Up รายการ The BIT - Drop the box World Robot Game 2024 <br> ณ เชียร์รังสิต จังหวัดกรุงเทพฯ <br> Aug 2-4, 2024 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer03.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">รางวัลเหรียญทองแดง 46ict</div>
+        <div class="cer-subheader">รางวัลเหรียญทองแดง การแข่งขันมหกรรมวิชาการ 46ict STEM & Microcontroller Project<br> ณ โรงเรียนภูเก็ตวิทยาลัย จังหวัดภูเก็ต <br> Aug 23-25, 2024 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer04.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">2nd Runner-Up (WRG)</div>
+        <div class="cer-subheader">2nd Runner-Up รายการ Mission Challenge World Robot Game 2024 <br> ณ เชียร์รังสิต จังหวัดกรุงเทพฯ <br> Aug 2-4, 2024 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer05.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">1st Runner-Up (WRG)</div>
+        <div class="cer-subheader">1st Runner-Up รายการ IPST - Hit the ball World Robot Game 2024 <br> ณ เชียร์รังสิต จังหวัดกรุงเทพฯ <br> Aug 2-4, 2024 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer06.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">รางวัลเหรียญทอง รองชนะเลิศอันดับ2 Robot Thai Youth League</div>
+        <div class="cer-subheader">การแข่งขันหุ่นยนต์เยาวชนไทยเพื่อความเป็นเลิศ Robot Thai Youth League ชิงถ้วยรางวัลพระราชทานพระบาทสมเด็จพระเจ้าอยู่หัว กระทรวงดิจิทัลเพื่อเศษฐกิจและสังคม จากรองนายกรัฐมนตรี<br> ณ โรงเรียนหนองบัว จังหวัดนครสวรรค์ <br> Dec 7-9, 2024 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer07.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">รางวัล รองชนะเลิศอันดับ 2 Robo Innovator Challenge</div>
+        <div class="cer-subheader">การแข่งขัน Robo Innovator Challenge (Software Park Thailand) ชิงถ้วยพระราชทานสมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จพระเทพฯ<br> ณ เชียร์รังสิต จังหวัดกรุงเทพฯ <br> Sep 8-10, 2023 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer08.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">รางวัล รองชนะเลิศอันดับ 3</div>
+        <div class="cer-subheader">การแข่งขันหุ่นยนต์ควายตู้ ชิงแชป์ประเทศไทย Ubon Robot Game<br> ณ สุนีย์ทาวเวอร์ จังหวัดอบลฯ <br> Aug 2-4, 2024 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer09.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+      
+  </div>
+    <br><br>
+</div>
+
+<footer class="footer">
+    <p>© 2025 Sumet Saeteng. All rights reserved.</p>
+    <p>Design & Code by PaxS 💻</p>
+  </footer>
+</ol>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="script.js"></script> <!-- เชื่อมกับ JavaScript -->
+</div>
+</body>
