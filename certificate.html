@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="th">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"> <!-- เชื่อมกับ CSS -->
+  <link rel="stylesheet" href="stylecertificate.css"> <!-- เชื่อมกับ stylecertificate -->
+  <link rel="stylesheet" href="mobliecss.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Paxs</title>
+  <link rel="icon" type="image/x-icon" href="PaxS.png">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+</style>
+</head>
+</html>
+
+<body>
+  <!-- Fullscreen overlay -->
+<div id="imageModal" class="modal" onclick="hideFullscreen()">
+  <img id="modalImage">
+</div>
+    <div class="cursor"></div>
+<div class="radio-inputs">
+  <label class="radio">
+    <input type="radio" name="radio">
+    <span class="name" id="Home" onclick="fadeAndGo(this.id)">Home</span>
+  </label>
+  <label class="radio">
+    <input type="radio" name="radio">
+    <span class="name" id="Facts" onclick="fadeAndGo(this.id)">Facts</span>
+  </label>
+  <label class="radio">
+    <input type="radio" name="radio" checked="">
+    <span class="name" id="Certificate" onclick="fadeAndGo(this.id)">Certificate</span>
+  </label>
+    <label class="radio">
+    <input type="radio" name="radio">
+    <span class="name" id="Positions" onclick="fadeAndGo(this.id)">Positions</span>
+  </label>
+      <label class="radio">
+    <input type="radio" name="radio">
+    <span class="name" id="Blog" onclick="fadeAndGo(this.id)">Blog</span>
+  </label>
+</div>
+    <div class="icon-bar">
+      <a href="https://www.facebook.com/joy.vipada.5" style="background: #3B5998; color: white;"><i class="fa fa-facebook"></i></a> 
+      <a href="https://www.instagram.com/paxumet" style="background: #ff00fb; color: white;"><i class="fa fa-instagram"></i></a> 
+      <a href="#" style="background: #dd4b39; color: white;"><i class="fa fa-google"></i></a> 
+      <a href="#" style="background: #ff0505; color: white;"><i class="fa fa-youtube"></i></a> 
+    </div>
+<ol style="background-color: rgb(58, 58, 58); ">
+    <br><br><br><br>
+    <h5 class="text-ceri fadeInLeft"><strong>Cerificate</strong></h5>
+    <h4 class="fadeInLeft" style="animation-delay: 0.5s;"><strong>ผลงาน และ เกียรติบัตร</strong></h4>
+    <br>
+    <hr>
+    <br>
+    <!-- <div class="text-cerlevel ZoomIn" style="animation-delay: 0.9s;"><strong>National level</strong></div> -->
+    <div class="grid-container ZoomIn">
+
+      <div class="cer-container" style="background-color: #fdfdd7;">
+        <div class="cer-header" style="color: #021442; background-color: #fff7a0;">รางวัลเยาวชนดีเด่น ระดับชาติ</div>
+        <div class="cer-subheader" style="color: #162345;">รางวัลเยาวชนดีเด่น สภาสังคมสงเคราะห์แห่งประเทศในพระบรมราชูประภัมป์ <br> ณ สภาสังคมสงเคราะห์ จังหวัดกรุงเทพฯ <Br> Sep 20, 2024 </div>
+        <button class="toggle-cerbutton" style="background-color: #fefee0;" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer01.jpg" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">รางวัลเยาวชนดีเด่น จังหวัดอุบลราชธานี</div>
+        <div class="cer-subheader">รางวัลเยาวชนดีเด่นจังหวัดอุบลราชธานี <br> ณ มหาลัยอุบลราชธานี จังหวัดอุบลฯ <br> Sep 27, 2024 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer02.jpg" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">Creator Meetup 2025</div>
+        <div class="cer-subheader">งานนี้เป็นงานเชิญเฉพาะบุคคลพิเศษ การประชุมนี้เป็นการรวมตัวของผู้พัฒนาเกมนานาประเทศเข้ามาพูดคุยแลกเปลี่ยนความรู้ และกำหนดแนวทางอนาคตของเกมRobloxในประเทศไทย<br> ณ ICON SIAM กรุงเทพฯ <br> Oct 4, 2025 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/20251004_154012.jpg" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">รางวัลชนะเลิศ TGF2025</div>
+        <div class="cer-subheader">ได้รับรางวัลชนะเลิศ Roblox และโล่รางวัลจากกระทรวงวัฒนธรรม การแข่งขันสร้างเกมไทยอย่างไทย คนแรกของประเทศไทย จากผู้เข้าแข่งขัน160คนทั่วประเทศ<br> ณ ICON SIAM กรุงเทพฯ <br> Sep 10, 2025 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/TGF.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">รางวัลรองชนะเลิศอันดับ1 ระดับเหรียญทอง 46ict</div>
+        <div class="cer-subheader">ได้รับรางวัลรองชนะเลิศอันดับ1 ระดับเหรียญทอง การแข่งขันหุ่นยนต์กู้ภัยระดับกลาง จาก60โรงเรียนทั่วประเทศ<br> ณ จังหวัดตราด <br> Oct 6-8, 2025 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/Screenshot 2025-10-09 225004.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">รับรางวัลรองชนะเลิศอันดับที่2 Sisaket Robotic 2025</div>
+        <div class="cer-subheader">ได้รับรางวัลรองชนะเลิศอันดับที่2 พร้อมเหรียญถ้วยรางวัลเลขาธิการสำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน รายการGathering<br> ณ จังหวัดศรีษะเกษ <br> Aug 16-17, 2025 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/S__16359443.jpg" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">ได้รับรางวัลรองชนะเลิศอันดับ2</div>
+        <div class="cer-subheader">รางวัลเหรียญทองแดง การแข่งขันมหกรรมวิชาการ 46ict STEM & Microcontroller Project<br> ณ โรงเรียนภูเก็ตวิทยาลัย จังหวัดภูเก็ต <br> Aug 23-25, 2024 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer04.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">1st Runner-Up (WRG)</div>
+        <div class="cer-subheader">1st Runner-Up รายการ The BIT - Drop the box World Robot Game 2024 <br> ณ เชียร์รังสิต จังหวัดกรุงเทพฯ <br> Aug 2-4, 2024 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer03.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">2nd Runner-Up (WRG)</div>
+        <div class="cer-subheader">2nd Runner-Up รายการ Mission Challenge World Robot Game 2024 <br> ณ เชียร์รังสิต จังหวัดกรุงเทพฯ <br> Aug 2-4, 2024 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer05.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">1st Runner-Up (WRG)</div>
+        <div class="cer-subheader">1st Runner-Up รายการ IPST - Hit the ball World Robot Game 2024 <br> ณ เชียร์รังสิต จังหวัดกรุงเทพฯ <br> Aug 2-4, 2024 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer06.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">1st Runner-Up (WRG)</div>
+        <div class="cer-subheader">ได้รับรางวัลรองชนะเลิศอันดับ1 พร้อมเหรียญรางวัล รายการ Move The Can เป็นการแข่งหุ่นยนต์คีบกระป๋องไปวางจุดต่างๆ แล้วผู้แข่งต้องรีบวิ่งเก็บกระป๋องแล้วไปวางเป็นการฝึกไหวพริบคน และประสิทธิภาพของหุ่นยนต์
+          <br> ณ เชียร์รังสิต จังหวัดกรุงเทพฯ <br> Aug 18-20, 2023 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer06.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">1st Runner-Up (WRG)</div>
+        <div class="cer-subheader">ได้รับรางวัลรองชนะเลิศอันดับ1 พร้อมเหรียญรางวัล รายการRescue Challenge เป็นการแข่งหุ่นยนต์อัตโนมัติจำลองสถานะการณ์เข้าไปในสถานที่ที่มนุษย์เข้าไปไม่ได้แล้วช่วยเหลือคนออกมากด้วยการตรวจจับผ่านกล้องพิกซี่
+          <br> ณ เชียร์รังสิต จังหวัดกรุงเทพฯ <br> Aug 18-20, 2023 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer06.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">รางวัลเหรียญทอง รองชนะเลิศอันดับ2 Robot Thai Youth League</div>
+        <div class="cer-subheader">การแข่งขันหุ่นยนต์เยาวชนไทยเพื่อความเป็นเลิศ Robot Thai Youth League ชิงถ้วยรางวัลพระราชทานพระบาทสมเด็จพระเจ้าอยู่หัว กระทรวงดิจิทัลเพื่อเศษฐกิจและสังคม จากรองนายกรัฐมนตรี<br> ณ โรงเรียนหนองบัว จังหวัดนครสวรรค์ <br> Dec 7-9, 2024 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer07.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">รางวัล รองชนะเลิศอันดับ 2 Robo Innovator Challenge</div>
+        <div class="cer-subheader">การแข่งขัน Robo Innovator Challenge (Software Park Thailand) ชิงถ้วยพระราชทานสมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จพระเทพฯ<br> ณ เชียร์รังสิต จังหวัดกรุงเทพฯ <br> Sep 8-10, 2023 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer08.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">รางวัล รองชนะเลิศอันดับ 3</div>
+        <div class="cer-subheader">การแข่งขันหุ่นยนต์ควายตู้ ชิงแชป์ประเทศไทย Ubon Robot Game<br> ณ สุนีย์ทาวเวอร์ จังหวัดอบลฯ <br> Aug 2-4, 2024 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/cer09.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">Coding BootCamp</div>
+        <div class="cer-subheader">ได้รับรางวัลชมเชยการแข่งขันโครงงานAIและนวัตกรรมในชีวิตประจำวัน จากDEPA Thailand<br> ณ จังหวัดอุบลราชธานี <br> Jul 8, 2024 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/1721746185965.jpg" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">การสร้างเกมมวยไทย</div>
+        <div class="cer-subheader">ประกาศนียบัตรการแข่งขันสร้างเกมด้วย Roblox Studio กิจกรรมนี้เป็น Solo Dev(แข่งคนเดียว) สมาคม Metaverse แห่งประเทศไทย<br> การแข่งขันแบบออนไลน์ <br> Nov 23, 2024 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/Screenshot 2025-02-23 175745_20250629_131653_0000.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">Hamter Game Jam</div>
+        <div class="cer-subheader">การแข่งขันสร้างเกมในระยะเวลา 48ชั่วโมง การแข่งขันนี้ผมได้รับเป็น Head Dev(หัวหน้าทีม) โดยมีสมาชิกในทีมทั้งหมด 5คน<br> การแข่งขันแบบออนไลน์ <br> Jul 4-6, 2025 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/516512713_616520054807673_3195221647146357947_n.jpg" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">ปฏิบัติหน้าที่ประธานคณะกรรมการสภานักเรียน</div>
+        <div class="cer-subheader">สังกัด:โรงเรียนวารินชำราบ อำเถอวารินชำราบ จังหวัดอุบลราชธานี สพม.อบอจ กระทรวงศึกษาธิการ ปีการศึกษา 2567</div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/Brown and White Floral Certificate of Completion A4 - 28.png" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">ปฏิบัติหน้าที่รองประธานคณะกรรมการสภานักเรียน</div>
+        <div class="cer-subheader">สังกัด:สำนักงานเขตพื้นที่การศึกษามัธยมศึกษาอุบลราชธานี อำนาจเจริญกระทรวงศึกษาธิการ ปีการศึกษา 2567</div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/Screenshot_2025-07-18-09-52-41-81_40deb401b9ffe8e1df2f1cc5ba480b12.jpg" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">ผู้ช่วยวิทยกรการอบรมเชิงปฏิบัติการสร้างความเข้มแข็งสภานักเรียน สพม.อบอจ</div>
+        <div class="cer-subheader">สังกัด:สำนักงานเขตพื้นที่การศึกษามัธยมศึกษาอุบลราชธานี อำนาจเจริญกระทรวงศึกษาธิการ ปีการศึกษา 2568</div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/Screenshot_2025-07-07-09-32-03-73_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">ผลการทดสอบวัดระดับภาษาอังกฤษ</div>
+        <div class="cer-subheader">ผลการทดสอบวัดระดับภาษาอังกฤษ A2 Excellent สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน <br> Apr 1, 2025 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/Screenshot_2025-07-07-09-32-03-73_e2d5b3f32b79de1d45acd1fad96fbb0f.jpg" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+
+      <div class="cer-container">
+        <div class="cer-header">การสอบ Examimation For CAI CAMP 2025</div>
+        <div class="cer-subheader">ผ่านการสอบ Examimation For CAI CAMP 2025 เป็นการสอบวัดระดับความรู้ความสามารถ ด้านAI เทคโนโลยี ประสิทธิภาพ และความสามารถ Creative AI Center by CPALL<br> Jun 22, 2025 </div>
+        <button class="toggle-cerbutton" onclick="toggleImage(this)">ดูรูปภาพ<br><img src="images/DropDown.png" style="height: 14px; width: auto;"></button>
+        <div class="imagecer-container">
+          <img src="images/CaiCamp.jpg" style="max-width:100%;" onclick="showFullscreen(this)">
+        </div>
+      </div>
+      
+  </div>
+    <br><br>
+</div>
+
+<footer class="footer">
+    <p>© 2025 Sumet Saeteng. All rights reserved.</p>
+    <p>Design & Code by PaxS 💻</p>
+  </footer>
+</ol>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="script.js"></script> <!-- เชื่อมกับ JavaScript -->
+</div>
+</body>

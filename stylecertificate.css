@@ -1,0 +1,122 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(58, 58, 58);
+}
+  .text-cerlevel{
+    font-size: 30px;
+    text-align: center;
+    color: #ffffffc6;
+    letter-spacing: 4px;
+    font-family: "K2D", sans-serif;
+    font-weight: 600;
+    z-index: 10;
+  }
+.text-ceri{
+  font-size: 50px;
+  text-align: left;
+  background: -webkit-linear-gradient(#c6e8ff, #76a5fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "K2D", sans-serif;
+  font-weight: 600;
+  z-index: 10;
+  margin-left: 25px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  padding: 20px;
+  max-width: 1400px;
+  margin: auto;
+  align-items: start; /* ✅ สำคัญ! ไม่ให้กล่องสูงเท่ากันหมด */
+}
+
+.cer-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.cer-header {
+  background-color: #eaf0ff;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #3755d2;
+  text-align: left;
+  font-family: "K2D", sans-serif;
+  font-weight: 600;
+}
+
+.cer-subheader {
+  color: #636363;
+  padding: 0 20px 10px;
+  font-size: 18px;
+  font-family: "K2D", sans-serif;
+  font-weight: ภ00;
+  text-align: left;
+}
+
+.toggle-cerbutton {
+  background-color: #f0f0f0;
+  border: none;
+  width: 100%;
+  padding: 2px 20px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  transition: background 0.3s;
+  font-family: "K2D", sans-serif;
+  font-weight: 400;
+}
+
+.toggle-cerbutton:hover {
+  background-color: #e2e2e2;
+}
+
+.imagecer-container {
+  max-height: 0;      /* ซ่อนแน่นอน */
+  opacity: 0;
+  overflow: hidden;
+  padding: 0 10px;
+  transition: max-height 0.4s ease, opacity 0.4s ease, padding 0.3s ease;
+}
+
+.imagecer-container.show {
+  max-height: 500px; /* ปรับตามขนาดรูปจริง */
+  padding: 10px;
+}
+
+.imagecer-container img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.modal {
+  display: none; /* <- อันนี้สำคัญมาก! ต้องมี */
+  position: fixed;
+  z-index: 999;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex; /* <-- อย่าเพิ่งใช้แบบนี้ตอนโหลด! */
+  justify-content: center;
+  align-items: center;
+}
+
+.modal img {
+  max-width: 90%;
+  max-height: 90%;
+  border: 4px solid white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  transition: transform 0.3s ease;
+}
